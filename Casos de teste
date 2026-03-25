@@ -1,0 +1,110 @@
+# 🧪 Casos de Teste - SauceDemo
+
+📌 Site: https://www.saucedemo.com/
+
+---
+
+## 🔹 CT01 - Login válido
+
+**Pré-condição:** Acessar a página de login  
+
+**Passos:**
+1. Informar usuário: `standard_user`
+2. Informar senha: `secret_sauce`
+3. Clicar em "Login"
+
+**Resultado esperado:**
+- Usuário deve ser direcionado para a página de produtos
+
+**Resultado obtido:**
+- (Direcionamento correto a página de produtos)
+
+## 🔹 CT02 - Login com senha inválida
+
+**Passos:**
+1. Informar usuário válido
+2. Informar senha inválida
+3. Clicar em "Login"
+
+**Resultado esperado:**
+- Exibir mensagem de erro
+
+**Resultado obtido:**
+- (Mensagem de erro exibida, impedindo acesso.)
+
+## 🔹 CT03 - Login com campos vazios
+
+**Passos:**
+1. Não preencher usuário e senha
+2. Clicar em "Login"
+
+**Resultado esperado:**
+- Sistema deve impedir o login
+- Exibir mensagem de validação
+
+**Resultado obtido:**
+- (Sistema impediu acesso, exibindo mensagem de validação)
+
+## 🔹 CT04 - Adicionar produto ao carrinho
+
+**Pré-condição:** Usuário logado  
+
+**Passos:**
+1. Clicar em "Add to cart" em um produto
+
+**Resultado esperado:**
+- Produto deve ser adicionado ao carrinho
+
+**Resultado obtido:**
+- (Passou. Produto foi adicionado ao carrinho)
+
+## 🔹 CT05 - Remover produto do carrinho
+
+**Passos:**
+1. Adicionar um produto ao carrinho
+2. Clicar em "Remove"
+
+**Resultado esperado:**
+- Produto deve ser removido do carrinho
+
+**Resultado obtido:**
+- (Passou. Prdouto removido do carrinho)
+
+## 🔹 CT06 - Acessar carrinho
+
+**Passos:**
+1. Clicar no ícone do carrinho
+
+**Resultado esperado:**
+- Exibir os produtos adicionados
+
+**Resultado obtido:**
+- (Passou. Exebição correta)
+
+## 🔹 CT07 - Checkout completo
+
+**Passos:**
+1. Adicionar produto ao carrinho
+2. Clicar em "Checkout"
+3. Preencher dados obrigatórios
+4. Confirmar compra
+
+**Resultado esperado:**
+- Compra realizada com sucesso
+
+**Resultado obtido:**
+- (Passou. compra realizada)
+
+## 🔹 CT08 - Checkout com campos incompletos
+
+**Passos:**
+1. Ir para o checkout
+2. Não preencher todos os campos
+3. Tentar continuar
+
+**Resultado esperado:**
+- Sistema deve bloquear o avanço
+- Exibir mensagem de erro
+
+**Resultado obtido:**
+- (Sistema bloqueo avanço. Menssagem de erro exibida)
