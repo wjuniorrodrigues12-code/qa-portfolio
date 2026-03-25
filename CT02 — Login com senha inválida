@@ -1,0 +1,10 @@
+**Passos:**
+1. Informar usuário válido
+2. Informar senha inválida
+3. Clicar em "Login"
+
+**Resultado esperado:**
+- Exibir mensagem de erro
+
+**Resultado obtido:**
+- (Mensagem de erro exibida, impossiblitando acesso.)
