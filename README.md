@@ -1,12 +1,22 @@
-👋 Olá, eu sou junior.
+# 👨‍💻 QA Portfolio - [Seu Nome]
 
-🎯 Foco em QA (Quality Assurance)
-
-## 🧪 Habilidades
-- Testes Manuais
-- Testes de API (Postman)
-- Automação (Cypress)
+Analista de Testes focado em qualidade de software.
 
 ## 🚀 Projetos
-👉 Em destaque nos meus repositórios abaixo
 
+### 🧪 SauceDemo - Testes Web
+- Testes manuais
+- Casos de teste
+- Report de bugs
+
+### 🔌 API Testing
+- Testes com Postman
+- Validação de respostas
+
+### 🤖 Automação
+- Cypress
+
+## 🧰 Ferramentas
+- Postman
+- Cypress
+- GitHub
