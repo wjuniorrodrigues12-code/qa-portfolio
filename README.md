@@ -1,4 +1,4 @@
-# 👨‍💻 QA Portfolio - [Washington Junior]
+# 👨‍💻 QA Portfolio - Washington Junior
 
 Analista de Testes focado em qualidade de software.
 
