@@ -1,0 +1,36 @@
+🐞 Bug 001 - Mensagem de erro genérica no login
+
+**Severidade:** Média  
+
+**Descrição:**
+A mensagem de erro apresentada no login não é clara o suficiente para orientar o usuário.
+
+**Passos para reproduzir:**
+1. Acessar a página de login
+2. Inserir usuário válido
+3. Inserir senha inválida
+4. Clicar em "Login"
+
+**Resultado esperado:**
+- Mensagem clara informando erro de autenticação
+
+**Resultado obtido:**
+- Epic sadface: Username and password do not match any user in this service
+
+🐞 Bug 002 - Login aceita espaços desnecessários
+
+**Severidade:** Alta  
+
+**Descrição:**
+O sistema aceita credenciais com espaços antes e depois do usuário, podendo causar inconsistências.
+
+**Passos para reproduzir:**
+1. Inserir usuário com espaços: ` standard_user `
+2. Inserir senha correta
+3. Clicar em login
+
+**Resultado esperado:**
+- Sistema deve validar e rejeitar espaços indevidos
+
+**Resultado obtido:**
+- Login pode ser aceito indevidamente
